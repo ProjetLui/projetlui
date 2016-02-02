@@ -701,7 +701,7 @@ footer {
 	#logo img {
 		margin: 0 auto;
 		height: 50px;
-		z-index: 2;
+		z-index: 1;
 		padding-left: 0;
 		display: inline-block;
 	}
