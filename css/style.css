@@ -706,7 +706,7 @@ footer {
 		width: inherit;
 	}
 	.burger {
-		z-index: 3;
+		z-index: 10;
 		display: block;
 	}
 	/*  Nav Drawer Layout  */
