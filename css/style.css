@@ -703,15 +703,7 @@ footer {
 		z-index: 1;
 		padding-left: 0;
 		display: inline;
-	}
-	header h1 {
-		z-index: 2;
-		line-height: 60px;
-		color: #ffffff;
-		text-align: center;
-		padding-left: 0;
-		display: block;
-		background: url(../img/LUI2.png) no-repeat;
+		width: inherit;
 	}
 	.burger {
 		z-index: 3;
