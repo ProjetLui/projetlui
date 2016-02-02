@@ -692,15 +692,18 @@ footer {
 		-webkit-transform: translate3d(0, 0, 0);
 		-moz-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		text-align: center;
+	}
+	#logo {
+		text-align: center;
+		width: 80px;
 	}
 	#logo img {
 		margin: 0 auto;
-		width: auto;
 		height: 50px;
 		z-index: 2;
-		text-align: center;
 		padding-left: 0;
-		display: block;
+		display: inline-block;
 	}
 	header h1 {
 		z-index: 2;
@@ -709,6 +712,7 @@ footer {
 		text-align: center;
 		padding-left: 0;
 		display: block;
+		background: url(../img/LUI2.png) no-repeat;
 	}
 	.burger {
 		z-index: 3;
