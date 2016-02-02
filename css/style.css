@@ -696,14 +696,13 @@ footer {
 	}
 	#logo {
 		text-align: center;
-		width: 80px;
 	}
 	#logo img {
 		margin: 0 auto;
 		height: 50px;
 		z-index: 1;
 		padding-left: 0;
-		display: inline-block;
+		display: inline;
 	}
 	header h1 {
 		z-index: 2;
