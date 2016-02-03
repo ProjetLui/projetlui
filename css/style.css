@@ -698,10 +698,10 @@ footer {
 		text-align: center;
 	}
 	#logo img {
-		margin: 0 auto;
+		margin: 5px 0;
+		padding: 0;
 		height: 50px;
 		z-index: 1;
-		padding-left: 0;
 		display: inline;
 		width: inherit;
 	}
