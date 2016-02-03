@@ -682,7 +682,7 @@ footer {
 	}
 	header {
 		height: 60px;
-		z-index: 2;
+		z-index: 10;
 		background-color: #13c4a3;
 		position: fixed;
 		top: 0;
@@ -706,7 +706,7 @@ footer {
 		width: inherit;
 	}
 	.burger {
-		z-index: 10;
+		z-index: 50;
 		display: block;
 	}
 	/*  Nav Drawer Layout  */
