@@ -261,7 +261,7 @@ nav li a.active {
 }
 
 .section3 .big {
-	font-weight: inherit;
+	font-weight: 500;
 	font-size: 30px;
 	line-height: 25px;
 }
