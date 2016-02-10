@@ -3,7 +3,7 @@ $(document).ready(function () {
         var oTop = $('.big').offset().top - window.innerHeight;
         $(window).scroll(function () {
 
-            var pTop = $('body').scrollTop();
+            var pTop = $(document).scrollTop();
             console.log(pTop + ' - ' + oTop);
             if (pTop > oTop) {
                 start_count();
@@ -35,7 +35,7 @@ function start_count() {
                     //alert('finished');
                 }
 
-            })
+            });
 
 
 

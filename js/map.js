@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
 
     //google map custom marker icon - .png fallback for IE11
     var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-    var $marker_url = new google.maps.MarkerImage('../img/marker.svg');
+    var $marker_url = new google.maps.MarkerImage('../img/marker.png', null, null, null, new google.maps.Size(40,40));
 
     //define the basic color of your map, plus a value for saturation and brightness
     var $main_color = '#13c4a3',

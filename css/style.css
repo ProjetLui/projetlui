@@ -1,5 +1,6 @@
 html {
 	font-style: "lato"!important;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
@@ -23,9 +24,9 @@ body {
 }
 
 #logo img {
-	width: auto;
-	padding: 5px 0 0 20px;
-	max-width: 100%;
+	padding: 10px 0 0 20px;
+	height: 60px;
+	width: inherit;
 }
 
 p {
@@ -610,10 +611,8 @@ a img {
 }
 
 .presentation li {
-	display: inline-block;
 	text-align: center;
 	padding: 0 15px;
-	max-width: 100%;
 }
 
 .presentation b {
@@ -625,9 +624,32 @@ a img {
 	text-align: center;
 }
 
-.presentation li p:last-child {
+.description {
+	width: 80%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.description p {
 	padding: 0 0 20px 0;
 	text-align: justify;
+}
+
+.avatar {
+	margin: 0 15px 0 0;
+	display:inline-block;
+vertical-align:middle;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	width: 70%;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin-bottom: 25px;
+	padding: 0;
+	clear: both;
 }
 
 
@@ -694,16 +716,24 @@ footer {
 		transform: translate3d(0, 0, 0);
 		text-align: center;
 	}
+	.avatar {
+		width: inherit;
+		float: none;
+	}
+	.description {
+		width: inherit;
+		display: inherit;
+		vertical-align: inherit;
+	}
 	#logo {
 		text-align: center;
 	}
 	#logo img {
-		margin: 5px 0;
-		height: 50px;
+		margin: 6px 0;
+		height: 45px;
 		padding: 0;
 		z-index: 1;
 		display: inline;
-		width: inherit;
 	}
 	.burger {
 		z-index: 50;
