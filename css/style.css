@@ -294,7 +294,7 @@ nav li a.active {
 }
 
 .contact p {
-	padding: 0 5px 30px 5px;
+	padding: 0 0 20px 0;
 	text-align: center;
 }
 
@@ -480,7 +480,11 @@ form input[type="submit"]:focus {
 .section5 {
 	color: #FFF;
 	background-color: #32322c;
-	padding: 0px 20px 30px 30px;
+	padding: 40px 20px 40px 20px;
+}
+
+.section5 p {
+	text-align: center;
 }
 
 .section4 {
@@ -490,7 +494,6 @@ form input[type="submit"]:focus {
 }
 
 .section5 h2 {
-	padding-top: 30px;
 	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -606,6 +609,7 @@ a img {
 /* EQUIPE */
 
 .presentation {
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -643,7 +647,7 @@ vertical-align:middle;
 hr {
 	display: block;
 	height: 1px;
-	width: 70%;
+	width: 50%;
 	border: 0;
 	border-top: 1px solid #ccc;
 	margin-bottom: 25px;
@@ -703,12 +707,12 @@ footer {
 	}
 	header {
 		height: 60px;
-		z-index: 10;
 		background-color: #13c4a3;
 		position: fixed;
 		top: 0;
 		right: 0;
 		left: 0;
+		z-index: 1;
 		/* starting point */
 		-webkit-transform: translate3d(0, 0, 0);
 		-moz-transform: translate3d(0, 0, 0);
@@ -725,19 +729,20 @@ footer {
 		vertical-align: inherit;
 	}
 	#logo {
+		z-index: 1;
 		text-align: center;
 	}
 	#logo img {
+		z-index: 1;
 		margin: 6px 0;
 		height: 45px;
 		padding: 0;
-		z-index: 1;
-		display: inline;
+		display: inline-block;
 	}
 	.burger {
-		z-index: 50;
 		display: block;
 	}
+
 	/*  Nav Drawer Layout  */
 	nav {
 		position: relative;
