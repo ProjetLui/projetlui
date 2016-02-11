@@ -1,6 +1,3 @@
-<?php
-	session_start();
-?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -74,18 +71,6 @@
 						<h2>Nous <b>contacter</b></h2>
 
 						<p>Vous avez envie de papoter avec nous? N'hésitez pas à nous envoyer un email et nous essayerons de vous répondre rapidement.</p>
-										
-										<?php if(array_key_exists('errors', $_SESSION)): ?>
-        			<div class="alert alert-danger">
-        				<?= implode('<br>', $_SESSION['errors']); ?>
-        			</div>
-        			<?php unset($_SESSION['errors']); endif; ?>
-
-        			<?php if(array_key_exists('success', $_SESSION)): ?>
-        			<div class="alert alert-success">
-        				<p><i class="fa fa-check"></i> Votre email a bien été envoyé...</p>
-        			</div>
-        			<?php unset($_SESSION['success']); endif; ?>
 
 										<form action="contact.php" class="animated flipInX" method="POST">
 
@@ -138,10 +123,3 @@
 </body>
 
 </html>
-
-
-<?php
-	unset($_SESSION['inputs']);
-	unset($_SESSION['success']);
-	unset($_SESSION['errors']);
-?>
