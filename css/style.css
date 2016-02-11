@@ -1,3 +1,31 @@
+/** Provisoire **/
+
+.prepa {
+	background-color: #e0e0e0!important;
+}
+
+.prepa span {
+	color: #808080;
+	font-weight: normal;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.prepa i {
+	font-size: 5em;
+}
+
+.prepa p {
+	font-size: 2em;
+}
+
+
+/** Provisoire **/
+
 html {
 	font-style: "lato"!important;
 }
@@ -641,8 +669,8 @@ a img {
 
 .avatar {
 	margin: 0 15px 0 0;
-	display:inline-block;
-vertical-align:middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 hr {
@@ -746,7 +774,6 @@ footer {
 	.burger {
 		display: block;
 	}
-
 	/*  Nav Drawer Layout  */
 	nav {
 		position: relative;
