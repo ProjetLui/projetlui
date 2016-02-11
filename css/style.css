@@ -314,6 +314,7 @@ nav li a.active {
 /* PAGE CONTACT */
 
 .contact {
+	margin-top: 40px;
 	padding: 0 20px;
 	font-size: 12px;
 	font-family: 'Lato', sans-serif;
@@ -730,7 +731,6 @@ footer {
 		float: none;
 	}
 	.section1,
-	.contact,
 	.section5 {
 		margin-top: 60px;
 	}
