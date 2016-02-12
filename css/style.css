@@ -1,5 +1,10 @@
 /** Provisoire **/
 
+.konami {
+    transition: 1s;
+    transform: rotate(180deg);
+}
+
 .prepa {
 	background-color: #e0e0e0!important;
 }
